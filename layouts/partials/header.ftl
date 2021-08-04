@@ -27,6 +27,9 @@
           <a href="${settings.instagram}" title="instagram" target="_blank"><i class="ri-instagram-fill"></i></a>
         </#if>
         <a href="/rss.xml" type="application/rss+xml" title="rss" target="_blank"><i class="ri-rss-fill"></i></a>
+        <#if settings.telegram??>
+          <a href="${settings.telegram}" title="telegram" target="_blank"><i class="ri-telegram-fill"></i></a>
+        </#if>
       </div>
     </div>
   </div>

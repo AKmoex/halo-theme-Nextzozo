@@ -60,3 +60,7 @@ sns:
       name: instagram
       label: Instagram
       type: text
+    telegram:
+      name: telegram
+      label: Telegram
+      type: text
