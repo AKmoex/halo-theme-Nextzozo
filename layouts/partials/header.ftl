@@ -26,10 +26,17 @@
         <#if settings.instagram??>
           <a href="${settings.instagram}" title="instagram" target="_blank"><i class="ri-instagram-fill"></i></a>
         </#if>
-        <a href="/rss.xml" type="application/rss+xml" title="rss" target="_blank"><i class="ri-rss-fill"></i></a>
+        <#if settings.steam??>
+          <a href="${settings.steam}" title="steam" target="_blank"><i class="ri-steam-fill"></i></a>
+        </#if>
+        <#if settings.playstation??>
+          <a href="${settings.playstation}" title="playstation" target="_blank"><i class="ri-playstation-line"></i></a>
+        </#if>
         <#if settings.telegram??>
           <a href="${settings.telegram}" title="telegram" target="_blank"><i class="ri-telegram-fill"></i></a>
         </#if>
+        <a href="/rss.xml" type="application/rss+xml" title="rss" target="_blank"><i class="ri-rss-fill"></i></a>
+        
       </div>
     </div>
   </div>
