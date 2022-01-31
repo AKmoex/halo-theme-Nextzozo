@@ -27,7 +27,7 @@
           <a href="${settings.instagram}" title="instagram" target="_blank"><i class="ri-instagram-fill"></i></a>
         </#if>
         <#if settings.steam??>
-          <a href="${settings.steam}" title="steam" target="_blank"><i class="ri-steam-fill"></i></a>
+          <a href="${settings.steam}" title="steam" target="_blank"><i class="ri-steam-line"></i></a>
         </#if>
         <#if settings.playstation??>
           <a href="${settings.playstation}" title="playstation" target="_blank"><i class="ri-playstation-line"></i></a>
